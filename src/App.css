@@ -6,6 +6,35 @@
   height: 40vmin;
   pointer-events: none;
 }
+.table{
+  margin: auto;
+  width: 100px;
+  
+}
+table, th, td {
+  margin: 20px 40px;
+  padding: 10px 20px;
+  
+}
+th{
+  
+    /* background-color: #04AA6D;
+    color: white; */
+    cursor: pointer;
+    margin: 10px;
+  
+}
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color: coral;}
+table {
+  border-collapse: collapse;
+}
+
+ th tr td{
+  border: 1px solid black;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

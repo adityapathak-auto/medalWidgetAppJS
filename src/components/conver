@@ -1,0 +1,10 @@
+let arr = [{"g":20,"code":"a"},{"g":10,"code":"b"}]
+let arrf =  arr?.sort((a,b)=>{
+    if(b.gold === a.gold){
+        return b.silver - a.silver
+    }else{
+        return b.gold - a.gold
+    }
+})
+
+console.log(arrf)
